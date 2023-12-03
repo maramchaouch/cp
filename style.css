@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    gap: 100px;
+padding: 0;
+margin: 0;
+text-align: center;
+box-shadow: 2px 2px 10px rgba(1, 0, 0, 0.56);
+width: 100%;
+height: 100%;
+padding-left: 10%;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+   
+}
+header{
+    width: 100%;
+    height: 100vh; background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/01/New-York-blue-neon-lighting-of-the-city-night-view-HD-Wallpaper-1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+h1{
+    color: wheat;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 20px;
+}
+h4{
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 20px;
+}
+.li1:hover{
+    background-color: rgb(46, 46, 202);
+}
+.li4
+{
+    background-color: orangered;
+}
+
+.div2{
+    margin-left: 350px;
+    
+  
+}
+button{
+    background-color: orangered;
+    color: white;
+    width: 15%;
+    height: 30px;
+    border-radius: 20px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+    width: 100%;
+    height: 100%;
+
+}
+.template
+{
+    text-align: center;
+    justify-content: space-around;
+  
+    width: 200px;
+    height: 200px;
+}
+.grid1{
+    grid-column: 1;
+   
+    
+}
+.grid2{
+    grid-column: 2;
+  
+}
+.grid3{
+    grid-column: 3;
+ 
+}
+.grid4{
+    grid-column: 4;}
+footer{
+    background-color: rgb(98, 98, 172);
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+
+}
+.template2{
+text-align: center;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.grid6{
+   grid-column: 1;
+   
+}
+.grid7{
+   
+   grid-column: 2;
+}
+.grid8{
+   grid-column: 3;
+}
+.grid9{
+    grid-column: 4;
+}
+footer h3{
+    color: orangered;
+}
+.bt{
+    border-radius: 8px;
+    width: 80px;
+    float: right;
+}
+.bt:hover{
+    scale: 1.1;
+}
+    
+@media (max-width:800px)
+ {
+    .div2{
+        display: none;
+    }
+    
+}
+header{
+    position: static;
+}
